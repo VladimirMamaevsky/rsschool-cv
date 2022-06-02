@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav__links">
+            <li class="nav__item"><a href="#education">Education</a></li>
+            <li class="nav__item"><a href="#experience">Experience</a></li>
+            <li class="nav__item"><a href="#code-example">Code Example</a></li>
+            <li class="nav__item"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header__wrapper">
+          <div class="header__img">
+            <img src="img/cv-photo.jpg" alt="photo" />
+          </div>
+          <div class="header__text">
+            <h1 class="header__name">Vladimir <span>Mamaevsky</span></h1>
+            <div class="header__profession">Software Engineer</div>
+            <section class="profile" id="profile">
+              <h2 class="title">About me</h2>
+              <hr class="line" />
+              <div class="profile__text">
+                Hello, I'm Vladimir. I live in Chernovtsy, Ukraine. I have experience in IT for more than 10 years, worked as a
+                <br />
+                QA Engineer and System administrator. <br />
+                It's time to become a Front-end Developer :)
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="main__wrapper">
+          <div class="left">
+            <section class="education" id="education">
+              <div class="wrapper">
+                <h2 class="title">Education</h2>
+                <hr class="line" />
+                <div class="education__institution">
+                  <div class="education__years">2003-2008</div>
+                  <div class="education__name">Faculty of foreign philology (English teacher)</div>
+                  <div class="education__place">Kamianets-Podilskyi National Ivan Ohiienko University</div>
+                </div>
+              </div>
+            </section>
+            <section class="contact" id="contact">
+              <div class="wrapper">
+                <h2 class="title">Contact</h2>
+                <hr class="line" />
+                <ul class="contact__item">
+                  <li class="contact__item">
+                    <div class="contact__header">Location</div>
+                    <div class="contact__text">Chernovtsy, Ukraine</div>
+                  </li>
+                  <li class="contact__item">
+                    <div class="contact__header">Phone</div>
+                    <div class="contact__text"><a href="tel:+380956075128">+380956075128</a></div>
+                  </li>
+                  <li class="contact__item">
+                    <div class="contact__header">Email</div>
+                    <div class="contact__text">
+                      <a href="mailto:vova.moder@gmail.com">vova.moder@gmail.com</a>
+                    </div>
+                  </li>
+                  <li class="contact__item">
+                    <div class="contact__header">Github</div>
+                    <div class="contact__text"><a href="https://github.com/VladimirMamaevsky">VladimirMamaevsky</a></div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section class="skills" id="skills">
+              <div class="wrapper">
+                <h2 class="title">Skills</h2>
+                <hr class="line" />
+                <div class="skills__wrap">
+                  <ul class="skills__list">
+                    <li class="skills__item">HTML5</li>
+                    <li class="skills__item">CSS3</li>
+                    <li class="skills__item">SASS/SCSS</li>
+                    <li class="skills__item">Git</li>
+                    <li class="skills__item">JavaScript (Basic)</li>
+                    <li class="skills__item">Typescript (Basic)</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="right">
+            <section class="experience" id="experience">
+              <div class="wrapper">
+                <h2 class="title">Experience</h2>
+                <hr class="line" />
+                <div class="experience__item">
+                  <div class="experience__data">2011-2014<br />Genesis</div>
+                  <div class="experience__position">QA Engineer</div>
+                </div>
+                <div class="experience__item">
+                  <div class="experience__data">2014-2021<br />Automotive Electric</div>
+                  <div class="experience__position">System administrator</div>
+                </div>
+              </div>
+            </section>
+            <section class="code-example" id="code-example">
+              <div class="wrapper">
+                <h2 class="title">Code Example</h2>
+                <hr class="line" />
+                <pre>
+                                <code>
+function updateLight(current)
+{
+    if (current=="green"){
+        return "yellow"
+    } else if (current=="yellow"){
+        return "red"
+    } else{
+        return "green"
+    }
+                                </code>
+                            </pre>
+              </div>
+            </section>
+            <section class="languages" id="languages">
+              <div class="wrapper">
+                <h2 class="title">Languages</h2>
+                <hr class="line" />
+                <ul class="languages__list">
+                  <li class="languages__item">Ukrainian - Native</li>
+                  <li class="languages__item">Russian - Fluent</li>
+                  <li class="languages__item">English - Advanced</li>
+                </ul>
+              </div>
+            </section>
+            <section class="educational-project" id="educational-project">
+              <div class="wrapper">
+                <h2 class="title">Educational Projects</h2>
+                <hr class="line" />
+                <a href="https://vladimirmamaevsky.github.io/rsschool-cv/cv" class="educational-project__link"
+                  >Rsschool: CV#1. Markdown & Git</a
+                >
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__item">
+            <a href="https://github.com/VladimirMamaevsky">
+              <img src="img/gh.png" alt="gh_logo" />
+            </a>
+          </div>
+          <div class="footer__item">&copy;2022</div>
+          <div class="footer__item">
+            <a href="https://rs.school/js/">
+              <img src="img/rss.png" alt="rss_logo" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
